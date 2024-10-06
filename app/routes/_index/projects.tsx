@@ -43,7 +43,7 @@ const projects = (
 	] as Project[]
 ).map((item) => ({ ...item, icons: item.icons.sort() }));
 
-const Projects = () => {
+export const Projects = () => {
 	return (
 		<section className="w-full space-y-4">
 			<h2 className="text-4xl underline decoration-2 decoration-primary underline-offset-8">Projects</h2>
@@ -83,5 +83,3 @@ const Projects = () => {
 		</section>
 	);
 };
-
-export default Projects;
