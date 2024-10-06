@@ -28,12 +28,12 @@ const projects = (
 			url: "https://github.com/rohitxdev/relay",
 			icons: ["react.png", "mongodb.png", "nodejs.png"],
 		},
-		{
-			name: "Bitsy",
-			description: "A simple URL shortener app with QR code generation.",
-			url: "https://github.com/rohitxdev/bitsy",
-			icons: ["react.png", "nodejs.png", "postgres.png"],
-		},
+		// {
+		// 	name: "Bitsy",
+		// 	description: "A simple URL shortener app with QR code generation.",
+		// 	url: "https://github.com/rohitxdev/bitsy",
+		// 	icons: ["react.png", "nodejs.png", "postgres.png"],
+		// },
 		{
 			name: "Web analytics app",
 			description: "A web analytics app built with Remix, Golang and MongoDB.",
