@@ -8,7 +8,6 @@ import { Skills } from "./skills";
 export const meta: MetaFunction = () => {
 	return [
 		{ title: "Rohit's Portfolio" },
-		{ name: "description", content: "Rohit's Portfolio" },
 		{
 			tagName: "link",
 			rel: "shortcut icon",
