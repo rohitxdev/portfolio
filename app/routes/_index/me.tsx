@@ -1,5 +1,6 @@
 import { GrDownload } from "react-icons/gr";
 import { SlSocialLinkedin } from "react-icons/sl";
+import { TfiEmail } from "react-icons/tfi";
 import GithubOutline from "~/assets/github-outline.svg?react";
 import X from "~/assets/x.svg?react";
 
@@ -19,8 +20,8 @@ export const Me = () => {
 				<p className="max-w-prose text-xl">
 					I'm a full-stack developer with a passion for building scalable and performant web applications. I have experience in multiple
 					areas of software development, including frontend, backend, and DevOps. I love tinkering with new technologies and reading
-					technical blogs. My current favourite tools are Go, Bash, PostgreSQL and Docker. Outside of work, I enjoy watching anime and
-					playing video games.
+					technical blogs. My current favourite tools are Go, Bash, PostgreSQL and Docker. Other than that, I also enjoy working out,
+					watching anime, and playing video games.
 					<img className="ml-2 inline" src="sword.png" width={24} alt="" />
 				</p>
 				<div className="mt-4 flex gap-4 *:rounded-full *:border *:p-2">
@@ -32,6 +33,9 @@ export const Me = () => {
 					</a>
 					<a href="https://www.linkedin.com/in/rohit-reddy-36256920a/">
 						<SlSocialLinkedin className="size-6 p-0.5" />
+					</a>
+					<a href="mailto:rohitreddygr8@gmail.com" className="text-xl">
+						<TfiEmail className="size-6" />
 					</a>
 				</div>
 			</div>

@@ -10,7 +10,7 @@ export const meta: MetaFunction = () => {
 		{ title: "Rohit's Portfolio" },
 		{
 			tagName: "link",
-			rel: "shortcut icon",
+			rel: "icon",
 			href: "/favicon.png",
 			type: "image/png",
 		},
