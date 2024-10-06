@@ -9,7 +9,7 @@ import Projects from "./projects";
 import { Skills } from "./skills";
 
 export const meta: MetaFunction = () => {
-	return [{ title: "New Remix App" }, { name: "description", content: "Welcome to Remix!" }];
+	return [{ title: "Rohit's Portfolio" }, { name: "description", content: "Rohit's Portfolio" }];
 };
 
 const DownloadResumeBtn = () => {
