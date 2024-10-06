@@ -11,10 +11,10 @@ export const Me = () => {
 				<div className="flex items-center gap-8">
 					<h1 className="pb-2 font-bold text-5xl max-md:text-4xl">Hi, I&apos;m Rohit.</h1>
 					<a
-						className="flex h-8 items-center gap-2 bg-primary px-3 font-medium text-dark text-sm leading-none"
+						className="flex h-8 items-center gap-2 bg-primary px-3 font-medium text-dark text-sm leading-none active:bg-amber-500"
 						href="https://drive.google.com/file/d/1_ACHocrtd8dh6qlV7h6YcWpz8M7wLOeG/view?usp=drive_link"
 					>
-						<GrDownload className="size-3" /> Rèsumé
+						<GrDownload className="size-3" /> <span className="pb-1">Rèsumé</span>
 					</a>
 				</div>
 				<p className="max-w-prose text-xl">
@@ -35,7 +35,7 @@ export const Me = () => {
 						<SlSocialLinkedin className="size-6 p-0.5" />
 					</a>
 					<a href="mailto:rohitreddygr8@gmail.com" className="text-xl">
-						<TfiEmail className="size-6" />
+						<TfiEmail className="size-6 p-0.5" />
 					</a>
 				</div>
 			</div>
