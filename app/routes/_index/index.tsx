@@ -9,7 +9,16 @@ import Projects from "./projects";
 import { Skills } from "./skills";
 
 export const meta: MetaFunction = () => {
-	return [{ title: "Rohit's Portfolio" }, { name: "description", content: "Rohit's Portfolio" }];
+	return [
+		{ title: "Rohit's Portfolio" },
+		{ name: "description", content: "Rohit's Portfolio" },
+		{
+			tagName: "link",
+			rel: "shortcut icon",
+			href: "/favicon.png",
+			type: "image/png",
+		},
+	];
 };
 
 const DownloadResumeBtn = () => {
