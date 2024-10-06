@@ -2,11 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
-  @apply bg-white dark:bg-gray-950;
+@keyframes drop-side {
+	to {
+		transform: rotate(12deg);
+	}
+}
 
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
-  }
+.drop-side {
+	animation: drop-side 0.5s 1s 1 forwards;
 }
