@@ -25,7 +25,7 @@ export const Blogs = () => {
 						rel="noreferrer"
 						key={item.title}
 					>
-						<h3 className="font-medium text-3xl leading-none group-hover:font-semibold">{item.title}</h3>
+						<h3 className="font-medium text-2xl leading-none group-hover:font-semibold">{item.title}</h3>
 						<RiExternalLinkLine className="absolute top-0 right-0 m-4 size-6" />
 					</a>
 				))}
