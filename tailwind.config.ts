@@ -11,6 +11,7 @@ export default {
 			},
 			fontFamily: {
 				sans: [
+					"Darker Grotesque",
 					'"Inter"',
 					"ui-sans-serif",
 					"system-ui",
@@ -20,7 +21,6 @@ export default {
 					'"Segoe UI Symbol"',
 					'"Noto Color Emoji"',
 				],
-				"darker-grotesque": ["Darker Grotesque", "sans-serif"],
 			},
 			fontSize: {
 				xxs: ".5rem",

@@ -28,7 +28,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 				<Meta />
 				<Links />
 			</head>
-			<body className="mx-auto flex min-h-screen w-screen max-w-5xl bg-stone-950 p-8 font-darker-grotesque text-light">
+			<body className="mx-auto flex min-h-screen w-screen max-w-5xl bg-stone-950 p-8 text-light">
 				{children}
 				<ScrollRestoration />
 				<Scripts />
