@@ -1,8 +1,8 @@
 const skills = {
 	Frontend: ["React", "React Native", "TypeScript", "Tailwind CSS", "Remix", "Next.js"],
 	Backend: ["Go", "Node.js", "MongoDB", "PostgreSQL", "Redis", "SQLite"],
-	DevOps: ["Docker", "Kubernetes", "AWS", "GCP"],
-	Other: ["Bash", "Linux", "System design", "Python", "Chrome extension dev"],
+	DevOps: ["Docker", "AWS", "GCP"],
+	Other: ["Bash", "Linux", "Bash", "System design", "Python", "Chrome extension dev"],
 };
 
 export const Skills = () => {
