@@ -12,7 +12,7 @@ export const Me = () => {
 					<h1 className="pb-2 font-bold text-5xl max-md:text-4xl">Hi, I&apos;m Rohit.</h1>
 					<a
 						className="flex h-8 items-center gap-2 bg-primary px-3 font-medium text-dark text-sm leading-none active:bg-amber-500"
-						href="https://drive.google.com/file/d/1_ACHocrtd8dh6qlV7h6YcWpz8M7wLOeG/view?usp=drive_link"
+						href={import.meta.env.VITE_RESUME_LINK}
 					>
 						<GrDownload className="size-3" /> <span className="pb-1">Rèsumé</span>
 					</a>
