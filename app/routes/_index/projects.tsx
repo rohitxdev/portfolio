@@ -11,17 +11,23 @@ interface Project {
 const projects = (
 	[
 		{
+			name: "DocuBeaver (In Development)",
+			description: "A dynamic PDF generation API with a visual template builder.",
+			url: "https://docubeaver.com",
+			icons: ["remix.png", "mongodb.png", "gcp.png"],
+		},
+		{
 			name: "Varsync",
 			description: "A fully fledged feature flags and secrets managing tool with zero-knowledge encryption.",
 			url: "https://varsync.com",
 			icons: ["react.png", "remix.png", "mongodb.png", "webrtc.png"].sort(),
 		},
-		{
-			name: "FilterCV",
-			description: "A web app for recruiters to filter resumes based on their criteria. Built using Gemini 1.5 flash.",
-			url: "https://filtercv.com",
-			icons: ["react.png", "remix.png"],
-		},
+		// {
+		// 	name: "FilterCV",
+		// 	description: "A web app for recruiters to filter resumes based on their criteria. Built using Gemini 1.5 flash.",
+		// 	url: "https://filtercv.com",
+		// 	icons: ["react.png", "remix.png"],
+		// },
 		{
 			name: "Relay",
 			description: "A webRTC based group video-calling app with realtime chat, screen sharing, camera switching and PWA support.",
